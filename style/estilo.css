@@ -1,0 +1,147 @@
+body{
+    background-color: #EEEEEE;
+    margin: 0px auto;
+    font-family: 'open sans';
+    width: 70%;
+}
+header img{
+    max-width: 200px;
+}
+header{
+    padding-top: 10px;
+}
+header .redes{
+    float: right; 
+    padding-top: 20px;   
+}
+.redes a{
+    font-size: 36px;
+    color: black;
+    padding:10px;
+}
+.redes a:hover{
+    background-color: #2a8d3a;
+}
+nav{
+    background-color: #333333;
+    height: 40px;
+    border-radius: 4px;
+}
+nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+nav ul li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+nav ul li a{
+    color: white;
+    line-height: 40px;
+    text-decoration: none;    
+}
+nav ul li:hover{
+    background-color: #2a8d3a;
+}
+.banner{
+    margin-top: 10px;
+}
+.banner img{
+    width: 100%;
+}
+.contenido{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.contenido .info{
+    width: 68%;
+    float: left;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.contenido .publicidad{
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+.contenido article{
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px;
+}   
+footer{
+    background-color: #333333;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+footer p a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+footer .what{
+    width: 50px;
+    background-color: #1ebea5;
+    border-radius: 50px;
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer i{
+    color: white;
+    font-size: 36px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 70%;
+    border-radius: 0px;
+}
+
+.info .titulo-info{
+    font-size: 16px;
+    color: #2a8d3a;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info .subtitulo-info{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info .texto-info{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.info .autor-info{
+    color: #888;
+    font-weight: bold;
+    font-size: 13px;
+    border-top: 1px solid #ccc;
+    display: block;
+}
+
+.publicidad img{
+    width: 100%;
+}
